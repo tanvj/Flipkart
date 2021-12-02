@@ -1,0 +1,113 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Ubuntu:wght@300&display=swap');
+
+:root {
+    --main-bg-color: #bc73f8;
+}
+/* 088ae6 */
+/* bc73f8 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+   
+    background-color: var(--main-bg-color);
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+}
+
+nav ul {
+    height: 68px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    font-weight: bolder;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 30vw;
+    height: 27px;
+    border-radius: 3px;
+    margin: 0 16px 0 66px;
+    padding: 0 12px;
+}
+
+.search button {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.search button:hover {
+    font-weight: 900;
+}
+
+.container {
+    min-height: calc(100vh - 68px - 12vh);
+}
+
+.slider {
+    margin: 12px auto;
+    width: 80vw;
+    overflow: hidden;
+}
+
+.card {
+    max-width: 90vw;
+    margin: 50px auto;
+}
+
+.cards {
+    display: flex;
+    overflow: scroll;
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.card h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+footer {
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
